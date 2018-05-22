@@ -5,7 +5,7 @@ import MapView, { PROVIDER_GOOGLE } from 'react-native-maps';
 window.navigator.userAgent = "react-native";
 let io = require('react-native-socket.io-client/socket.io');
 
-messages = require("./messages.js");
+messages = require("../data/messages.js");
 
 class ChatScreen extends React.Component {
   constructor(props) {
